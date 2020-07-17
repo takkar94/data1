@@ -1,0 +1,323 @@
+*{
+	max-width: 100%;
+	max-height: 2000px;
+}
+
+/* below the code deifnes the content of the body */
+body{
+	background-image: url("sea.jpg"); /* This sets the background image to the mentioned image */
+	background-size: cover; /* Sets image size to cover  */
+}
+
+.nav{ /* this portion is for the navigatiob bar bacground */
+	width: 1920px;  /* sets the width to 1920px*/
+	background-color: #00769B; /* sets the background color to a shade of blue */
+	line-height: 50px; /* sets the line height to 50px */
+}
+
+.nav a {
+
+	
+	width: 10%; /* Sets the width of an element inside nav to 10 % */
+	padding: 10px; /* Keeps the padding 10 px  */
+	line-height: 40px; /* keeps the height of an element ot 40 px */
+	font-size: 35px; /* sets the font size to 35px */
+	text-decoration: none;/* sets the text decoration to none*/
+	
+	
+
+}
+
+a:hover{
+	color: #08B9DE; /* sets the color to shade of blue when hovering  */
+	text-decoration: none; /* sets the decoration of the text to none  */
+}
+
+
+.responsive{
+	display: inline-flex; /* sets the display to inline flex */
+	background-color: inherit;/* inherits the background color*/
+	flex-wrap: wrap;/* stops the items from going out of flex */
+	width: 1920px;/*  sets the width to 1920px*/
+	align-items: center;/* aligns the item at the center */
+
+}
+
+.gallery{
+	margin-top: 100px; /* sets the margin at the top to 100px*/
+	text-decoration: none;/* sets the decoration of the text to none */
+	padding-top: 10px;/* sets the yop padding to none  */
+	margin-left: 35%;/* margin on the left side covers the 35 % of the screen*/
+	font-size: 30px;/* font size is 30px*/
+	padding-bottom: 10px;/* padding at the bottom is 10px*/
+
+}
+
+.gallery img{ /*This portion is for the images inside the gallery */
+	height: 500px; /* sets the height of the image to 500px */
+	width: 600px;/* sets the width of the image to 600px*/
+}
+
+.des{
+	margin-left: 10px; /* Sets the left margin to 10 px*/
+	font-size: 30px;/* sets the font size to white */
+	font-weight: bold;/* sets the font to bold */
+	background-color: white;/* sets the background  */ 
+}
+
+
+.centerdiv{/* this portion of the css code is the for the footer*/
+	display: flex;/* sets the display to flex */
+	flex-wrap: wrap;/* wraps all the items in this flex*/
+	width: 100%;/* sets the width to 100%*/
+	margin-top: 10%;/* sets the top margin to 10 % */
+	margin-right: 0px;/*sets the right margin to 0px */
+	padding-right: 0px;/*sets the right padding to 0px */
+}
+
+.centerdiv a {/*  this portion of the code is for items inside center div*/
+	line-height: 60px;/* sets the line height to 60px */
+	background-color: black;/* sets the background color to black */
+	width: 20%;/* sets the width to 20 % */
+	
+	text-align: center;/*aligns the text to center  */
+	color: #fff;/* sets the color to white */
+}
+
+.centerdiv a i{/* this is for the portion of the code inside centerdiv  */
+	margin: 0px;/* sets the margin to 0px*/
+	padding: 0px;/* sets the padding to 0 px */
+	text-decoration: none;/*  sets the text decoration to none*/
+}
+
+
+/* ................... Below the media query is for the mobie view ..........................................*/
+@media only screen and (max-width: 360px) {
+
+*{
+	max-width: 360px;
+	max-height: 100%;
+}
+	.nav a{ /* this is the class for the items inside the nav */
+		width: 25%; /*sets the width of the item inside nav to 25%*/
+	}
+
+
+.responsive{ /* this class covers the whole body of the portfolio*/
+	display: inline-flex; /* sets the display to inline flex */
+	background-color: inherit;/* inherits the background color*/
+	flex-wrap: wrap;/* stops the items from going out of flex */
+	width: 360px;/*  sets the width to 1920px*/
+	align-items: center;/* aligns the item at the center */
+
+
+}
+
+.gallery{  /* this part covers the image portion and text portion of the portfolio */
+	margin-top: 100px; /* sets the margin at the top to 100px*/
+	text-decoration: none;/* sets the decoration of the text to none */
+	padding-top: 10px;/* sets the yop padding to none  */
+	margin-right: 2%;/* margin on the left side covers the 2 % of the screen*/
+	font-size: 30px;/* font size is 30px*/
+	padding-bottom: 10px;/* padding at the bottom is 10px*/
+	padding-left: 0px;
+	margin-left: 0px;
+}
+
+.gallery img{ /*This portion is for the images inside the gallery */
+	height: 250px; /* sets the height of the image to 250px */
+	width: 250px;/* sets the width of the image to 300px*/
+	margin-right: 2px;
+
+}
+
+.des{
+	max-width: 300px;/*sets the maximum width to 300px*/
+	margin-left: 0px; /* Sets the left margin to 10 px*/
+	font-size: 30px;/* sets the font size to white */
+	font-weight: bold;/* sets the font to bold */
+	background-color: white;/* sets the background  */ 
+}
+	
+
+.centerdiv{
+	width: 360px;/* sets the maximum wirh to 360 px*/
+	padding-right: 0px;
+	background-color: black;
+}
+
+.centerdiv a{ /*this portion of the code is for items inside footer*/
+	width: 20%; /*sets the width to 15% */
+	padding-left: 2px;/* sets the left padding to 2px */
+	line-height: 40px;/* sets the line height to 40px */
+}
+
+
+/* ................... Below the media query is for the tablet view ..........................................*/
+@media only screen and (max-width: 768px) and (min-width: 361px) {/* */
+	
+*{
+	max-width: 768px;
+	max-height: 100%;
+}
+	.nav{
+		max-width: 768px;
+		line-height: 50px;
+	}
+
+	
+	.nav a{ /* this is the class for the items inside the nav */
+		font-size: 40px;
+		width: 25%; /*sets the width of the item inside nav to 25%*/
+	}
+
+body{
+	max-width: 768px;
+}
+
+
+.responsive{ /* this class covers the whole body of the portfolio*/
+	display: inline-flex; /* sets the display to inline flex */
+	background-color: inherit;/* inherits the background color*/
+	flex-wrap: wrap;/* stops the items from going out of flex */
+	width: 768px;/*  sets the width to 1920px*/
+	align-items: center;/* aligns the item at the center */
+
+}
+
+.gallery{  /* this part covers the image portion and text portion of the portfolio */
+	margin-top: 100px; /* sets the margin at the top to 100px*/
+	text-decoration: none;/* sets the decoration of the text to none */
+	padding-top: 10px;/* sets the yop padding to none  */
+	margin-left: 2%;/* margin on the left side covers the 2 % of the screen*/
+	font-size: 30px;/* font size is 30px*/
+	padding-bottom: 10px;/* padding at the bottom is 10px*/
+	max-width: 768px;
+
+}
+
+.gallery img{ /*This portion is for the images inside the gallery */
+	height: 350px; /* sets the height of the image to 250px */
+	width: 450px;/* sets the width of the image to 300px*/
+}
+
+.des{
+	max-width: 740px;/*sets the maximum width to 300px*/
+	margin-left: 10px; /* Sets the left margin to 10 px*/
+	font-size: 30px;/* sets the font size to white */
+	font-weight: bold;/* sets the font to bold */
+	background-color: white;/* sets the background  */ 
+}
+	
+
+.centerdiv{/* This portion of the code is for the footer*/
+	width:768px;/* sets the maximum wirh to 360 px*/
+	background-color: black;
+	padding-right: 0px;
+}
+
+.centerdiv a{ /*this portion of the code is for items inside footer*/
+	width: 20%; /*sets the width to 15% */
+	padding-left: 2px;/* sets the left padding to 2px */
+	line-height: 40px;/* sets the line height to 40px */
+	max-width: 768px;
+}
+
+
+}
+
+/* ................... Below the media query is for the desktop view ..........................................*/
+@media only screen and (max-width: 1920px) and (min-width: 769px) {
+
+*{
+	max-width: 1920px;
+	max-height: 2100px;
+
+}
+
+/* below the code deifnes the content of the body */
+body{
+	background-image: url("sea.jpg"); /* This sets the background image to the mentioned image */
+	background-size: cover; /* Sets image size to cover  */
+}
+
+.nav{ /* this portion is for the navigatiob bar bacground */
+	width: 1920px;  /* sets the width to 1920px*/
+	background-color: #00769B; /* sets the background color to a shade of blue */
+	line-height: 50px; /* sets the line height to 50px */
+}
+
+.nav a {
+
+	
+	width: 10%; /* Sets the width of an element inside nav to 10 % */
+	padding: 10px; /* Keeps the padding 10 px  */
+	line-height: 40px; /* keeps the height of an element ot 40 px */
+	font-size: 35px; /* sets the font size to 35px */
+	text-decoration: none;/* sets the text decoration to none*/
+	
+	
+
+}
+
+a:hover{
+	color: #08B9DE; /* sets the color to shade of blue when hovering  */
+	text-decoration: none; /* sets the decoration of the text to none  */
+}
+
+
+.responsive{
+	display: inline-flex; /* sets the display to inline flex */
+	background-color: inherit;/* inherits the background color*/
+	flex-wrap: wrap;/* stops the items from going out of flex */
+	width: 1920px;/*  sets the width to 1920px*/
+	align-items: center;/* aligns the item at the center */
+
+}
+
+.gallery{
+	margin-top: 100px; /* sets the margin at the top to 100px*/
+	text-decoration: none;/* sets the decoration of the text to none */
+	padding-top: 10px;/* sets the yop padding to none  */
+	margin-left: 35%;/* margin on the left side covers the 35 % of the screen*/
+	font-size: 30px;/* font size is 30px*/
+	padding-bottom: 10px;/* padding at the bottom is 10px*/
+
+}
+
+.gallery img{ /*This portion is for the images inside the gallery */
+	height: 500px; /* sets the height of the image to 500px */
+	width: 600px;/* sets the width of the image to 600px*/
+}
+
+.des{
+	margin-left: 10px; /* Sets the left margin to 10 px*/
+	font-size: 30px;/* sets the font size to white */
+	font-weight: bold;/* sets the font to bold */
+	background-color: white;/* sets the background  */ 
+}
+
+
+.centerdiv{/* this portion of the css code is the for the footer*/
+	display: flex;/* sets the display to flex */
+	flex-wrap: wrap;/* wraps all the items in this flex*/
+	width: 100%;/* sets the width to 100%*/
+	margin-top: 10%;/* sets the top margin to 10 % */
+	margin-right: 0px;/*sets the right margin to 0px */
+	padding-right: 0px;/*sets the right padding to 0px */
+}
+
+.centerdiv a {/*  this portion of the code is for items inside center div*/
+	line-height: 60px;/* sets the line height to 60px */
+	background-color: black;/* sets the background color to black */
+	width: 20%;/* sets the width to 20 % */
+	text-align: center;/*aligns the text to center  */
+	color: #fff;/* sets the color to white */
+}
+
+.centerdiv a i{/* this is for the portion of the code inside centerdiv  */
+	margin: 0px;/* sets the margin to 0px*/
+	padding: 0px;/* sets the padding to 0 px */
+	text-decoration: none;/*  sets the text decoration to none*/
+}
+}}

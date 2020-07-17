@@ -1,0 +1,574 @@
+*{
+	
+
+}
+
+body{
+	background-image: url("sea.jpg");/*sets the background image*/
+	background-size: 100% 1350px; /*sets the width and height */
+	
+}
+
+.nav{
+	width: 100%;  /*sets the width  */
+	background-color: #00769B; /*sets the background color */
+	line-height: 50px; /*sets the line height to 50px*/
+	padding-bottom: 10px; /*sets the bottom padding to 10px*/
+}
+
+.nav a {
+	width: 10%; /*sets the width to 10%*/
+	padding: 10px; /*sets the padding of 10px*/
+	line-height: 40px; /*sets the line height to 40px*/
+	font-size: 35px; /*sets the font size to 35px*/
+	text-decoration: none; /*sets the text decoration to none */	
+	flex-wrap: wrap; /*wraps the elements inside the flex*/
+	overflow: hidden; /*hides the overflow */
+
+}
+
+
+
+a:hover{
+	color: #08B9DE;/*set the text color */
+	text-decoration: none; /*sets the text decoration to none */
+}
+
+
+
+
+
+.container{
+	margin-top: 20px; /*sets the top margin to 20px*/
+	margin-left: 200px; /*sets the left margin to 200px*/
+	margin-right: 20px; /*sets the right margin to 20px*/
+	/*margin-bottom: 30px;*/
+	padding-top: 30px; /*sets the top padding to 30px*/
+	padding-left: 30px; /*sets the left padding to 30px*/
+	padding-right: 30px; /*sets the right padding to 30px*/
+	height: 1150px; /*sets the height to 1150px*/
+	/*background-color: #08B9DE;*/
+	display: inline-flex; /*sets the display to inline-flex*/
+	flex-wrap: wrap; /*wraps all the element of the flex*/
+}
+.resume{
+	display: inline-flex; /*sets the display to inline-flex*/
+	flex-wrap: wrap; /*wraps all the element of the flex*/
+	padding-bottom: 3px; /*sets the bottom padding to 3px*/
+	padding-top: 20px; /*sets the top padding to 20px*/
+	padding-right: 10px; /*sets the right padding to 10px*/
+	padding-left: 10px; /*sets the left padding to 10px*/
+	margin-right: 10px; /*sets the margin right to 10px*/
+	margin-left: 10px; /*sets the left margin to 10px*/
+	
+	
+}
+.left{
+	width: 520px; /*sets the width to 520px*/
+	display: inline-flex; /*sets the display to inline-flex*/
+	flex-wrap: wrap; /*wraps all the element of the flex*/
+	background-color: #077085; /*sets the background color*/
+	flex-direction: column; /*sets the flex direction to column*/
+	text-align: left; /*aligns the text to left hand side of the screen*/
+	padding-bottom: 10px; /*sets the bottom paddding to 10px*/
+	margin-bottom: 10px; /*sets the bottom margin to 10px*/
+}
+
+.left p {
+	 
+	font-size: 30px; /*sets the font size to 30px*/
+	
+}
+.img{
+	padding-left: 5px; /*sets the left padding to bold*/
+	
+}
+
+.general{
+	font-weight: bold; /*sets the font type to bold*/
+	font-size: 13px; /*sets the font size to 13 px*/
+
+}
+
+.general li {
+	text-align: left; /*aligns the text to left hand side of the screen*/
+	font-size: 18px; /*sets the font size to 18px*/
+	margin-bottom: 10px; /*sets the bottom margin to 10px*/
+	list-style-type: none; /*sets the list style type to none*/
+}
+.holder{
+	width: 100%; /*sets the width to 100%*/
+	line-height: 10px; /*sets the line height*/
+	background-color: #ddd; /*sets the background color*/
+
+}
+.skill{
+	size: 250px 8px ; /*sets the written size*/
+	text-decoration: none; /*sets the text decoration to none*/
+    text-align: right; /*align the text to right */
+	padding-top: 5px;  /*sets the padding top to 5px*/
+	padding-bottom: 5px; /*sets the padding bottom to 5px*/
+	
+}
+
+.a{
+	width: 75%; /*sets the width to 75%*/
+	background-color:#04D4FF  ; /*sets the background color*/
+}
+.b{
+	width:75%; /*sets the width to 75%*/
+	background-color:#04D4FF  ;  /*sets the background color*/
+}
+.c{
+	width: 75%; /*sets the width to 75%*/
+	background-color:#04D4FF; /*sets the background color*/
+}
+
+.right{
+	display: inline-flex; /*sets the display to inline-flex*/
+	flex-wrap: wrap; /*wraps all the elements of the flex*/
+	background-color: #077085;  /*sets the background color*/
+	padding-left: 10px; /*sets the left padding to 10px*/
+	margin-right: 10px; /*sets the right margin to 10px*/
+	
+	width: 520px; /*sets te width to 520px*/
+	margin-bottom: 10px; /*sets the margin bottom*/
+
+}
+
+.right p{
+
+	font-size: 40px; /*sets the font-size to bold*/
+	font-weight: bold; /*sets the font weight to bold*/
+	padding-bottom: 2px; /*sets the padding bottom to 2px*/
+	margin-bottom: 0px; /*sets the bottom margin to 0px*/
+}
+.Educational p{
+	padding-bottom: 2px; /*sets the padding bottom to 2px*/
+	margin-bottom: 0px; /*sets the margin bottom to 0px*/
+	font-size: 30px; /*sets the font size to 30px*/
+	font-weight: bold; /*sets the font type to bold*/
+}
+
+.edu li {
+	text-align: left; /*aligns the text to left hand side*/
+	font-size: 22px; /*sets the font size to 22px*/
+	margin-bottom: 2px; /*sets the bottom margin to 2px*/
+	list-style-type: none; /*sets the list style type to none*/
+}
+
+.Social p{
+	padding-bottom: 2px; /*sets the bottom padding to 2px*/
+	margin-bottom: 0px; /*sets the bottom margin to 0px */
+	font-size: 30px; /*sets the font-size to 30px*/
+	font-weight: bold; /*sets the font weight to bold */
+}
+
+.soc li{
+	text-align: left; /*aligns the text to left hand side*/
+	font-size: 22px; /*sets the font size to 22px*/
+	margin-bottom: 2px; /*sets the bottom margin to 3px*/
+	list-style-type: none; /*sets the list style type to none*/
+}
+
+.hobby p{
+ 	font-weight: bold; /*sets the font-weight to bold*/
+	font-size: 30px; /*sets the font  size to 30px*/
+} 
+
+.hob li {
+	text-align: left; /*aligns the text to left side*/
+	font-size: 22px; /*sets the font sizr to 22px*/
+	margin-bottom: 10px; /*sets the margin bottom to 10px*/
+	list-style-type: none; /*sets the lis style type to none */
+}
+
+.wor li {
+	list-style-type: none; /*sets the list style type to none */
+	font-size: 22px; /*sets the font size to 22px*/
+}
+
+.centerdiv{
+	margin-top: 100px; /*sends the top margin to 100px*/
+	width: 100%; /*sets the width to 100%*/
+	margin: 0 auto; /*sets the margin to auto*/
+	
+}
+
+.centerdiv a {
+ margin-top:5% ; /*sets the margin top to 5%*/
+	line-height: 60px; /*sets the line height to 60px*/
+	background-color: black; /*sets the background color to black*/
+	width: 20%; /*sets the max width to 20 %*/
+	float: left; /*makes the div content shift to left*/
+	text-align: center; /*aligns the text to center*/
+	color: #fff; /*sets the font color to white*/
+}
+
+.centerdiv a i{
+	margin: 0; /*sets the margin to 0*/
+	padding: 0; /*sets the padding to 0*/
+	text-decoration: none; /*sets the text decoration to none*/
+}
+
+
+
+/*media query for the mobile viewport*/
+
+@media only screen and (max-width: 360px) {
+
+
+	body{
+	background-image: url("sea.jpg"); /*sets the background image */
+	background-size: 360px 2500px; /*sets the background size */
+	background-repeat: no-repeat; /*makes the background image so that it doesn't repeat*/
+	max-width: 360px; /*sets the max width to 360px*/
+	}
+
+	.nav{
+		max-width: 360px; /*sets the max width to 360px*/
+	}
+	.nav a{
+		width: 25%; /*sets the width to 25%*/
+	}
+
+	.container{
+		max-width: 360px; /*sets the max-width to 360px*/
+		width: 330px; /*sets the width to 330px*/
+		height: 2100px; /*sets the height to 2100px*/
+		margin-left: 0px; /*sets the margin left to 0px*/
+		margin-right: 0px; /*sets the margin right to 0px*/
+		padding-right: 0px; /*sets the padding right to 0px*/
+		padding-left: 0px; /*sets the padding left of 0px*/
+		display: inline-flex; /*sets the display to inline flex*/
+		flex-direction: column; /*sets the flex direction to column*/
+		flex-wrap: wrap; /*wraps the elements inside the flex */
+	}
+
+.resume{
+	max-width: 360px; /*sets the max width to 360px*/
+	margin-left: 0px; /*sets the margin left to 0px*/
+	padding-left: 0px /*sets the padding left to 0px*/
+}
+	.left{
+	width: 330px; /*sets the width to 330px*/
+	display: inline-flex; /*sets the display to inline flex*/
+	flex-wrap: wrap; /*wraps the element inside the flex*/
+	background-color: #077085; /*sets the background color */
+	flex-direction: column; /*sets the direction of the flex to column*/
+	text-align: left; /*aligns the text to left side */
+	padding-bottom: 5px; /*sets the bottom padding to 5px*/
+	}
+	.left p {
+		font-size: 35px; /*sets the font size to 35px*/
+	}
+	.right{
+	display: inline-flex; /*sets the display to inline flex*/
+	flex-wrap: wrap; /*wraps the elements inside the flex*/
+	background-color: #077085; /*sets the background color */
+	padding-left: 0px; /*sets the padding left to 0px*/
+	margin-left: 0px; /*sets the margin left to 0px*/
+	margin-right: 10px; /*sets the margin right to 10px*/
+	padding-bottom: 10px; /*sets the padding bottom to 10px*/
+	
+	width: 330px; /*sets the width to 330px*/
+
+	}
+
+
+	.centerdiv{
+		margin-top: 10%; /*sets the top margin to 10%*/
+		display: flex; /*sets the display to flex*/
+		flex-wrap: wrap; /*wraps all the elements of the flex*/
+		max-width: 360px; /*sets the max width to 360px*/
+		margin: 0 auto; /*sets the margin to auto*/
+	}
+
+	.centerdiv a{
+		margin-top: 280px; /*sets the margin top to 280px*/
+		width: 15%; /*sets the width to 15%*/
+		padding-left: 2px; /*sets the padding left to 2px*/
+		line-height: 40px; /*sets the line height to 40px*/
+	}
+}
+
+@media only screen and (max-width: 768px) and (min-width: 361px){
+
+
+	body{
+	background-image: url("sea.jpg"); /*sets the background image */
+	background-size: 768px 2100px; /*sets the background size */
+	background-repeat: no-repeat; /*stops the backgeound from repeating*/
+	max-width: 768px; /*sets the maximum width*/
+	}
+
+	.nav{
+		max-width: 768px;/*sets the maximum width*/
+	}
+	.nav a{
+		width: 25%;/*sets the  width to 25% */
+	}
+
+	.container{
+		max-width: 768px; /*sets the maximum width*/
+		margin-left: 0px; /*sets the left margin to 0px*/
+		margin-right: 0px; /*sets the margin right to 0px */
+		padding-right: 0px;  /*sets the padding right to 0px */
+		padding-left: 0px;  /*sets the padding left to 0px */
+		display: inline-flex; /*sets the display to inline flex */
+		flex-direction: column; /* sets the flex direction to column */
+		flex-wrap: wrap; /* wraps all the elements of the flex */
+	}
+
+.resume{
+	max-width: 768px; /*sets the max width to 768px*/
+	margin-left: 0px; /*sets the left margin to 0px */
+	padding-left: 0px /*sets the left padding to 0px*/
+}
+	.left{
+	width: 330px; /*sets the max width to 330px*/
+	display: inline-flex; /*sets the display to inline flex*/
+	flex-wrap: wrap; /*wraps the elements of the flex*/
+	background-color: #077085; /*sets the background color*/
+	flex-direction: column; /*sets the flex direction to column*/
+	text-align: left; /*aligns the items to the left handside */
+	padding-bottom: 10px; /*sets the bottom padding ro 10px*/
+	}
+
+	.right{
+	display: inline-flex; /*sets the display to inline flex*/
+	flex-wrap: wrap; /*wraps all the element of the flex*/
+	background-color: #077085; /*sets the background color */
+	padding-left: 0px; /*sets the left padding to 0px*/
+	margin-left: 0px; /*sets the left margin to 0px*/
+	margin-right: 10px; /*sets the right margin to 10px*/
+	width: 330px; /*sets the width to 330px*/
+
+	}
+
+
+	.centerdiv{
+		display: flex; /*sets the display to flex*/
+		flex-wrap: wrap; /*wraps all the elements of the flex*/
+		max-width: 100%; /*sets the max-width to 100%*/
+		margin: 0 auto; /*sets the margin to auto*/
+	}
+
+	.centerdiv a{
+		margin-top: 300px; /*sets the top margin to 300px*/
+		width: 15%; /*sets the maximum width to 15 %*/
+		padding-left: 2px; /*sets the padding left to 15%*/
+		line-height: 40px; /*sets the line height to 40px*/
+	}
+}
+
+@media only screen and (max-width: 1920px) and (min-width: 1440px){
+	body{
+	background-image: url("sea.jpg");/*sets the background image*/
+	background-size: 1920px 1350px; /*sets the width and height */
+	
+}
+
+.nav{
+	width: 100%;  /*sets the width  */
+	background-color: #00769B; /*sets the background color */
+	line-height: 50px; /*sets the line height to 50px*/
+	padding-bottom: 10px; /*sets the bottom padding to 10px*/
+}
+
+.nav a {
+	width: 10%; /*sets the width to 10%*/
+	padding: 10px; /*sets the padding of 10px*/
+	line-height: 40px; /*sets the line height to 40px*/
+	font-size: 35px; /*sets the font size to 35px*/
+	text-decoration: none; /*sets the text decoration to none */	
+	flex-wrap: wrap; /*wraps the elements inside the flex*/
+	overflow: hidden; /*hides the overflow */
+
+}
+
+
+
+a:hover{
+	color: #08B9DE;/*set the text color */
+	text-decoration: none; /*sets the text decoration to none */
+}
+
+
+
+
+
+.container{
+	margin-top: 20px; /*sets the top margin to 20px*/
+	margin-left: 200px; /*sets the left margin to 200px*/
+	margin-right: 20px; /*sets the right margin to 20px*/
+	/*margin-bottom: 30px;*/
+	padding-top: 30px; /*sets the top padding to 30px*/
+	padding-left: 30px; /*sets the left padding to 30px*/
+	padding-right: 30px; /*sets the right padding to 30px*/
+	height: 1150px; /*sets the height to 1150px*/
+	/*background-color: #08B9DE;*/
+	display: inline-flex; /*sets the display to inline-flex*/
+	flex-wrap: wrap; /*wraps all the element of the flex*/
+}
+.resume{
+	display: inline-flex; /*sets the display to inline-flex*/
+	flex-wrap: wrap; /*wraps all the element of the flex*/
+	padding-bottom: 3px; /*sets the bottom padding to 3px*/
+	padding-top: 20px; /*sets the top padding to 20px*/
+	padding-right: 10px; /*sets the right padding to 10px*/
+	padding-left: 10px; /*sets the left padding to 10px*/
+	margin-right: 10px; /*sets the margin right to 10px*/
+	margin-left: 10px; /*sets the left margin to 10px*/
+	
+	
+}
+.left{
+	width: 520px; /*sets the width to 520px*/
+	display: inline-flex; /*sets the display to inline-flex*/
+	flex-wrap: wrap; /*wraps all the element of the flex*/
+	background-color: #077085; /*sets the background color*/
+	flex-direction: column; /*sets the flex direction to column*/
+	text-align: left; /*aligns the text to left hand side of the screen*/
+	padding-bottom: 10px; /*sets the bottom paddding to 10px*/
+	margin-bottom: 10px; /*sets the bottom margin to 10px*/
+}
+
+.left p {
+	 
+	font-size: 30px; /*sets the font size to 30px*/
+	
+}
+.img{
+	padding-left: 5px; /*sets the left padding to bold*/
+	
+}
+
+.general{
+	font-weight: bold; /*sets the font type to bold*/
+	font-size: 13px; /*sets the font size to 13 px*/
+
+}
+
+.general li {
+	text-align: left; /*aligns the text to left hand side of the screen*/
+	font-size: 18px; /*sets the font size to 18px*/
+	margin-bottom: 10px; /*sets the bottom margin to 10px*/
+	list-style-type: none; /*sets the list style type to none*/
+}
+.holder{
+	width: 100%; /*sets the width to 100%*/
+	line-height: 10px; /*sets the line height*/
+	background-color: #ddd; /*sets the background color*/
+
+}
+.skill{
+	size: 250px 8px ; /*sets the written size*/
+	text-decoration: none; /*sets the text decoration to none*/
+    text-align: right; /*align the text to right */
+	padding-top: 5px;  /*sets the padding top to 5px*/
+	padding-bottom: 5px; /*sets the padding bottom to 5px*/
+	
+}
+
+.a{
+	width: 75%; /*sets the width to 75%*/
+	background-color:#04D4FF  ; /*sets the background color*/
+}
+.b{
+	width:75%; /*sets the width to 75%*/
+	background-color:#04D4FF  ;  /*sets the background color*/
+}
+.c{
+	width: 75%; /*sets the width to 75%*/
+	background-color:#04D4FF; /*sets the background color*/
+}
+
+.right{
+	display: inline-flex; /*sets the display to inline-flex*/
+	flex-wrap: wrap; /*wraps all the elements of the flex*/
+	background-color: #077085;  /*sets the background color*/
+	padding-left: 10px; /*sets the left padding to 10px*/
+	margin-right: 10px; /*sets the right margin to 10px*/
+	
+	width: 520px; /*sets te width to 520px*/
+	margin-bottom: 10px; /*sets the margin bottom*/
+
+}
+
+.right p{
+
+	font-size: 40px; /*sets the font-size to bold*/
+	font-weight: bold; /*sets the font weight to bold*/
+	padding-bottom: 2px; /*sets the padding bottom to 2px*/
+	margin-bottom: 0px; /*sets the bottom margin to 0px*/
+}
+.Educational p{
+	padding-bottom: 2px; /*sets the padding bottom to 2px*/
+	margin-bottom: 0px; /*sets the margin bottom to 0px*/
+	font-size: 30px; /*sets the font size to 30px*/
+	font-weight: bold; /*sets the font type to bold*/
+}
+
+.edu li {
+	text-align: left; /*aligns the text to left hand side*/
+	font-size: 22px; /*sets the font size to 22px*/
+	margin-bottom: 2px; /*sets the bottom margin to 2px*/
+	list-style-type: none; /*sets the list style type to none*/
+}
+
+.Social p{
+	padding-bottom: 2px; /*sets the bottom padding to 2px*/
+	margin-bottom: 0px; /*sets the bottom margin to 0px */
+	font-size: 30px; /*sets the font-size to 30px*/
+	font-weight: bold; /*sets the font weight to bold */
+}
+
+.soc li{
+	text-align: left; /*aligns the text to left hand side*/
+	font-size: 22px; /*sets the font size to 22px*/
+	margin-bottom: 2px; /*sets the bottom margin to 3px*/
+	list-style-type: none; /*sets the list style type to none*/
+}
+
+.hobby p{
+ 	font-weight: bold; /*sets the font-weight to bold*/
+	font-size: 30px; /*sets the font  size to 30px*/
+} 
+
+.hob li {
+	text-align: left; /*aligns the text to left side*/
+	font-size: 22px; /*sets the font sizr to 22px*/
+	margin-bottom: 10px; /*sets the margin bottom to 10px*/
+	list-style-type: none; /*sets the lis style type to none */
+}
+
+.wor li {
+	list-style-type: none; /*sets the list style type to none */
+	font-size: 22px; /*sets the font size to 22px*/
+}
+
+.centerdiv{
+	margin-top: 100px; /*sends the top margin to 100px*/
+	width: 100%; /*sets the width to 100%*/
+	margin: 0 auto; /*sets the margin to auto*/
+	
+}
+
+.centerdiv a {
+ margin-top:5% ; /*sets the margin top to 5%*/
+	line-height: 60px; /*sets the line height to 60px*/
+	background-color: black; /*sets the background color to black*/
+	width: 20%; /*sets the max width to 20 %*/
+	float: left; /*makes the div content shift to left*/
+	text-align: center; /*aligns the text to center*/
+	color: #fff; /*sets the font color to white*/
+}
+
+.centerdiv a i{
+	margin: 0; /*sets the margin to 0*/
+	padding: 0; /*sets the padding to 0*/
+	text-decoration: none; /*sets the text decoration to none*/
+}
+
+} 

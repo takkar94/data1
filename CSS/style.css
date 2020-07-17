@@ -1,0 +1,476 @@
+*{
+	
+	text-decoration: none; /* there is no  text decoration */
+	margin: 0.01px;  /* margin is 0.01 px*/
+	padding: 0.01px; /* the padding is set to 0.01px*/
+	list-style: none;   /* list style type is made to none*/
+}
+
+body{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("sea.jpg");/*sets the background to sea.jpg and adds a transparent linear gradient*/
+	background-size: 100% 2100px; /* the width and height of the body is set as mentioned */
+
+}
+
+.nav{
+	margin: 20px ;   /* determines the margin to 20px*/
+	padding:11px;    /* determines the padding to 10 px*/
+	border-radius: 5px;  /* the border radius of 5px of the nav class*/
+	background-color: #00769B; /* the background color is set here */
+	height: 80px;  /*the height of the nav class is set to 80px*/
+}
+
+.nav a {
+	width: 10%; /* width is adjusted to 10%*/
+	padding: 11px;  /* the padding of is adjusted to 10px */
+	border-radius: 11px ;  /* the border radius is assigned to 10px*/
+	line-height: 80px; /*the line-height to 40px */
+	font-size: 35px;  /* the font size is  to 35px*/
+	margin: 0 5px; /*the margin is assigned to  to 0 and 5px*/
+	
+	
+
+}
+a.active{
+	color: black; /* font color is made  black*/
+	background-color: #02f70b; /*shere the background color of the footer is determined */
+	
+}
+
+a:hover{
+	background-color: #119682; /* the background color is adjusted to match a hovering effect*/
+	color: #fff; /* the font color when hover effect takes place to white*/
+	text-decoration: none; /*sets the text decoration to none*/
+}
+
+
+.main {
+	display: flex; /* the display of this main class is set to flex*/
+	width: 100%; /* the width is determined */
+	height: auto; /* height  is set to adjust automatically automatically */
+	
+}
+
+.left{
+	width: 50%; /* the width of the left class is to 50%*/
+	
+}
+
+.right{
+	display: block; /* the display of the right class is set to block*/
+	width: 50%; /* the width of this class is set to 50% of the overall screen*/
+	
+}
+
+.right p {
+	margin-top: 20%; /* the top margin of this paragraph tag is set to 20%*/
+	color: #fff; /* the font color is set  to white */
+	font-size: 70px; /* the font size inside this paragraph tag is adjusted to 70px*/
+}
+
+.left img {
+	margin-top: 17%; /* margin for this tag is set to 17%*/
+	height: 300px; /* image height for image inside is set to 300px*/
+	width: 300px; /* image width for image inside is set to 300px */
+	border-radius: 50%; /* the border radius of the image is set to 50%*/
+	margin-left: 20%; /* the margin left is adjusted  to 20% of the overall screen*/
+
+}
+
+.btn1{
+	color: #fff; /*the font color inside this class is set to white */
+	transition: 0.6 ease; /* the transition is adjusted to 0.6*/
+}
+
+.a{
+	border: 2px solid #2d9186; /* the border radius of the class is set to solid 2px of the specifed color*/
+	color: white; /* the font color inside this class is set to white */
+	font-size: 45px; /*the font size inside this class is set to 45px*/
+	box-shadow: 10px #fff; /* the box shadow is adjusted to 10px of white color*/
+}
+
+.a:hover{
+	padding-left: 2px; /* the padding on the left hand side is adjusted to 2px*/
+	padding-right: 2px; /* the padding on th right hand side is adjusted to 2px*/
+	background-size: 55px; /* the background size of this class is set to  to 55px*/
+	background-color: bisque; /* the background color is adjusted to the mentioned color*/
+}
+
+
+.centerdiv{
+	display: flex; /* the display inside this class is made to flex*/
+	flex-wrap: wrap; /*wraps the element of the flex */
+	width: 100%; /*the width of this centerdiv class is set to 100%*/
+	margin-top: 1080px; /* top margin of this class is set to 1080px*/
+}
+
+.centerdiv a {
+	line-height: 60px; /* the line height of this class is set  to 60px*/
+	background-color: black; /* the background color is made black */
+	width: 20%; /* the overall width is adjusted to 20%*/
+	float: left; /*makes the elements shift to the left*/
+	text-align: center; /* aligns the text inside  of text to center*/
+	color: #fff; /* the color of the font inside is set to  white */
+}
+
+.centerdiv a i{
+	margin: 0; /* the margin is determined to 0*/
+	padding: 0; /* the padding inside the elements of anchor tag is set to 0*/
+	text-decoration: none; /* the text decoration is set to none */
+}
+
+
+
+@media only screen and (max-width: 360px) {
+	*{
+		max-width: 360px; /* the max-width is determined to be  360px*/
+	}
+	body{
+		max-width: 360px; /* the max-width of the body tag is adjusted to 360px*/
+	}
+	.nav{
+	height: 160px; /* the height for this media query is determied to 160px*/
+	max-width: 360px; /* the max-width for this media query is determined to 360px*/
+	margin: 5px ; /* the margin is adjusted to 5px*/
+	padding:10px; /* the padding is made to 10px for this media query*/
+	border-radius: 5px; /*the border radius for this class is set to to 5px*/
+	background-color: #00769B; /* the background color for this class is to be as mentioned */
+	
+}
+
+.nav a {
+	width: 10%; /*the width for this anchor tag inside nav is set  to 10%*/
+	padding: 10px;  /*the padding for this anchor tag inside nav is set  to 10px */
+	border-radius: 10px ; /*the border radius for this anchor tag inside nav is set  to 10px*/
+	line-height: 80px; /*the line-height for this anchor tag inside nav is set  to 40px */
+	font-size: 35px; /*the font size for this anchor tag inside nav is set  to 35px*/
+	margin: 0 5px; /*  the margin for this anchor tag inside nav is set to 0 and 5px */
+	
+	
+
+}
+
+a.active{
+
+	color: black; /* the  color of the font is adjusted to be black color */
+	background-color: #02f70b;  /* the background color is adjusted to be as mentioned in the css*/
+	
+}
+
+a:hover{
+	background-color: #119682; /* the background color is adjusted to be as mentioned*/
+	color: #fff; /* the font color is determined to be  white */
+	text-decoration: none; /* the text decoration is adjusted to none*/
+}
+
+
+
+	
+.main {
+	display: flex; /* the display for this main tag is set  to flex*/
+	flex-direction: column; /* the flex direction for this main tag is set  to column*/
+	width: 100%; /* the width for this main tag is set  to 100%*/
+	height: auto; /*the height for this main tag is set  to automatic*/
+	
+}
+
+.left{
+	width: 100%; /* the width of this class is set to  100%*/
+	
+}
+
+.right{
+	display: block; /* the display of this class is set to  block*/
+	width: 100%; /*the width of this class is set to  100%*/
+	
+}
+
+.right p {
+	margin-left: 45px; /* the margin left of the p tag inside right class is set to 45px */
+	margin-top: 20%; /*sets the top margin to 20%*/
+	color: #fff; /*the font colorof the p tag inside right class is set to white*/
+	font-size: 70px; /*the font size of the p tag inside right class is set to 70px*/
+	margin-bottom: 20px; /*the margin bottom of the p tag inside right class is set to 20px*/
+}
+
+.left img {
+	margin-top: 15%; /* the top margin of the image tag inside left class is set to to 15%*/
+	height: 250px; /* the height of the image tag inside left class is set to to 250px*/
+	width: 250px; /*the width of the image tag inside left class is set to to 250px*/
+	border-radius: 25%; /*the border radius of the image tag inside left class is set to to 25%*/
+	margin-left: 45px; /* the margin left of the image tag inside left class is set to 45px*/
+
+}
+
+.btn1{
+	color: #fff; /* the font color of this class is adjusted to white*/
+	transition: 0.6 ease; /*the transition when hovered is set to 0.6 second*/
+	margin-bottom: 10px; /* the margin bottom is programmed to be at 10px*/
+ 	margin-left: 10px; /* the left for this class is programmed to be of 10px*/
+}
+	
+
+.centerdiv{
+	display: flex; /* the display is adjusted to flex*/
+	flex-wrap: wrap; /*wraps all the elements inside the flex*/
+	width: 100%; /*the width is programmed to fill 100%*/
+	margin: 0 auto; /* the margin is programmed to automatic */
+}
+
+.centerdiv a{
+	width: 20%; /* the width is programmed to be 20 % of teh screen*/
+	line-height: 40px; /* the line height is programmed  to be shown as none */
+	}
+
+}
+
+@media only screen and (max-width: 768px) and (min-width: 400px) {
+	*{
+	
+	text-decoration: none; /*the text decoration for the entire css inside this media query is set to none */
+	margin: 0px; /* the margin for the page when in the range of this media query is set to  0px*/
+	padding: 0px; /*the padding for the page when it's in the range of  media query is set to 0px*/
+	list-style: none; /* the list style type adjusted to be  none */
+}
+
+body{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("sea.jpg");/*sets the background to sea.jpg*/
+	background-size: 100% 2100px; /*sets the width and height */
+
+}
+
+.nav{
+	margin: 20px ; /*sets the margin to 20px*/
+	padding:10px; /*sets the padding to 10px*/
+	border-radius: 5px; /*sets the border radius to 5px*/
+	background-color: #00769B; /*sets the background color */
+	height: 80px; /*sets the height to 80 px*/
+}
+
+.nav a {
+	width: 10%; /*sets the width to 10%*/
+	padding: 10px;  /*sets the padding to 10px */
+	border-radius: 10px ; /*sets the border radius to 10px*/
+	line-height: 80px; /*sets the line-height to 40px */
+	font-size: 35px;/*sets the font size to 35px*/
+	margin: 0 5px; /*sets the margin to 0 and 5px*/
+	
+	
+
+}
+
+a.active{
+	color: black; /*sets the font color to black */
+	background-color: #02f70b; /*sets the background color*/
+	
+}
+
+a:hover{
+	background-color: #119682; /*sets the background color */
+	color: #fff; /*sets the font color to white*/
+	text-decoration: none; /*sets the text decoration to none*/
+}
+
+
+.main {
+	display: flex;/*sets the display to flex*/	
+	width: 100%;/*sets the width t0 100%*/
+	height: auto; /*sets the height to auto*/
+		
+}
+
+.left{
+	width: 50%; /*sets the width to 50%*/
+	
+}
+
+.right{
+	display: block; /*sets the display to block*/
+	width: 50%; /*sets the width to 50%*/
+	
+}
+
+.right p {
+	margin-top: 20%; /* the margin top for the p tag inside right class is set  to 20% */
+	color: #fff; /* the font color for the p tag inside right class is set  to white */
+	font-size: 70px; /*the font-size for the p tag inside right class is set to 70px*/
+}
+
+.left img {
+	margin-top: 17%; /* the margin top for the img tag inside left class is set to 17%*/
+	height: 300px; /*the height for the img tag inside left class is set to 300px*/
+	width: 300px; /*the width for the img tag inside left class is set to 300px*/
+	border-radius: 50%; /*the border radius for the img tag inside left class is set to 50%*/
+	margin-left: 20%; /* the margin left for the img tag inside left class is set to 20%*/
+
+}
+
+.btn1{
+	color: #fff; /* the font color for this btn1 is set to white*/
+	transition: 0.6 ease; /* the transition for this btn1 class is set  to 0.6s*/
+}
+
+.a{
+	border: 2px solid #2d9186; /*the solid border is adjusted to the size of 2px */
+	color: white; /*the font color for this class is  adjusted to to white */
+	font-size: 45px; /*the font-size for the elemnts inside  to 45px*/
+	box-shadow: 10px #fff; /* the shadow of the box is set to 10px and white */
+}
+
+.a:hover{
+	padding-left: 2px; /*the padding left for the a class in hover effect is set to 2px*/
+	padding-right: 2px; /* the padding right for the a class in hover effect is set of 2px*/
+	background-size: 55px; /* the background size for the a class in hover effect is set to 55px*/
+	background-color: bisque; /*the background color for the a class in hover effect is set to bisque */
+}
+
+
+.centerdiv{
+	display: flex; /* the  display for this centerdiv class is set to flex*/
+	flex-wrap: wrap; /*wraps the elements inside flex of centerdiv */
+	width: 100%; /*the for this centerdiv class is set width to 100%*/
+	margin-top: 1080px; /* the top margin for this centerdiv class is set to 1080px*/
+}
+
+.centerdiv a {
+	line-height: 60px; /*the line height for the elements of anchor tag is set to 60px*/
+	background-color: black; /* the background color for the elements of anchor tag is set to black*/
+	width: 20%; /*the width for the elements of anchor tag is set to 20 %*/
+	text-align: center;/* the alignment of  the elements of anchor tag is set text to center */
+	color: #fff; /* the font color for the elements of anchor tag is set to white */
+}
+
+.centerdiv a i{
+	margin: 0; /*the  margin for the elements inside i tag is set to 0 */
+	padding: 0; /* the padding for the elements inside i tag is set to 0*/
+	text-decoration: none; /* the text decoration for the elements iside i tag is set to none */
+}
+
+
+}
+/*below is the media query for the desktop version */
+@media only screen and (max-width: 1920px) and (min-width: 1440px) {
+
+	*{
+	
+	text-decoration: none; /*sets the text decoration to none */
+	margin: 0px; /*sets the margin to 0px*/
+	padding: 0px; /*sets the padding to 0px*/
+	list-style: none; /*sets the list style type to none */
+}
+
+body{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("sea.jpg");/*sets the background to sea.jpg*/
+	background-size: 100% 2100px; /*sets the width and height */
+
+}
+
+.nav{
+	margin: 20px ; /*sets the margin to 20px*/
+	padding:10px; /*sets the padding to 10px*/
+	border-radius: 5px; /*sets the border radius to 5px */
+	background-color: #00769B; /*sets the background color */
+	height: 80px; /*sets the height to 80px*/
+}
+
+.nav a {
+	width: 10%; /*sets the width to 10%*/
+	padding: 10px;  /*sets the padding to 10px */
+	border-radius: 10px ;
+	line-height: 80px; /*sets the line-height to 40px */
+	font-size: 35px;/*sets the font size to 35px*/
+	margin: 0 5px;
+	
+	
+
+}
+
+a.active{ /* checks the achor tag with active link */
+	color: black; /*sets the text color to black*/
+	background-color: #02f70b;  /*sets the background color */
+	
+}
+
+a:hover{
+	background-color: #119682; /*setst he background color*/
+	color: #fff;/*sets the font color to white */
+	text-decoration: none;/*sets the text decoration to none */
+}
+
+
+.main {
+	display: flex;/*sets the display to flex*/
+	width: 100%;/*sets the width to 100%*/
+	height: auto;/*sets the heght to auto */
+		
+}
+
+.left{
+	width: 50%;/*sets the width to 50 %*/
+	
+}
+
+.right{
+	display: block;/*sets the display to block */
+	width: 50%;/*sets the width to 50 %*/
+	
+}
+
+.right p {
+	margin-top: 20%; /*sets the top margin to 20%*/
+	color: #fff;/*sets the font color to white*/
+	font-size: 70px; /*sets teh font size to 70px*/
+}
+
+.left img {
+	margin-top: 17%;/*sets the top margin to 17%*/
+	height: 300px; /*sets the height to 300px*/
+	width: 300px;/*sets the image width to 300px*/
+	border-radius: 50%; /*sets the border radius to 50%*/
+	margin-left: 20%; /*sets the left margin to 20%*/
+
+}
+
+.btn1{
+	color: #fff; /*sets the font color to white*/
+	transition: 0.6 ease; /*sets the transition to 0.6 seconds*/
+}
+
+.a{
+	border: 2px solid #2d9186; /*sets a solid border to 2px*/
+	color: white; /*sets the font color to white */
+	font-size: 45px;/*sets the font size to 45px*/
+	box-shadow: 10px #fff; /*sets the box shadow to 10px*/
+}
+
+.a:hover{
+	padding-left: 2px; /*sets the padding left */
+	padding-right: 2px;/*sets the padding right to 2px*/
+	background-size: 55px; /*sets the background size to 55px*/
+	background-color: bisque; /*sets the background color */
+}
+
+
+.centerdiv{
+	display: flex;/*sets the display to flex*/
+	flex-wrap: wrap;/*wraps the elements insde the flex*/
+	width: 100%;/*sets the width to 100%*/
+	margin-top: 1080px;/*sets the margin top to 1080px*/
+}
+
+.centerdiv a {
+	line-height: 60px;/*sets the line height */
+	background-color: black;/*sets the background to black*/
+	width: 20%;/*sets the width to 20%*/
+	
+	text-align: center; /*aligns the text to center*/
+	color: #fff; /*sets the font color to white */
+}
+
+.centerdiv a i{
+	margin: 0;/*sets the margin to 0*/
+	padding: 0;/*sets the padding to 0*/
+	text-decoration: none; /*sets the text decoration to none */
+}
+
+}

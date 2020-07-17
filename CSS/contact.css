@@ -1,0 +1,335 @@
+
+
+*{
+  max-width: 1920px;
+  max-height: 2000px;
+}
+/* below the code deifnes the content of the body */
+body{
+  background-image: url("sea.jpg");      /* This sets the background image to the mentioned image */
+  background-size: cover;       /* image set to cover  */
+}
+
+.nav{       /* this portion is for the navigation bar bacground */
+  width: 1920px;     /*  the width is made to 1920px*/
+  background-color: #00769B;  /* sets the background color to a shade of blue */
+  line-height: 50px;   /* sets the line height to 50px */
+}
+
+.nav a {
+  width: 10%; /* Sets the width of an element inside nav to 10 % */
+  
+  padding: 10px; /* Keeps the padding 10 px  */
+  line-height: 40px;/* keeps the height of an element ot 40 px */
+  font-size: 35px; /* sets the font size to 35px */
+  text-decoration: none; /* sets the text decoration to none*/
+  
+  
+
+}
+
+
+a:hover{
+  color: #08B9DE;/* sets the color to shade of blue when hovering  */
+  text-decoration: none;/* sets the decoration of the text to none  */
+}
+
+
+.contact-form{
+  width: 85%; /* sets the width of this class to 85 %*/
+  max-width: 600px;/* sets the max width of this class to 600px*/
+  background: #f1f1f1;/*sets the background color */
+  padding-top: 100px; /* sets the yop padding to 100px*/
+  padding-left: 100px;/* sets the padding left to 100px*/
+  margin-left: 500px;/* sets the margin left to 500px*/
+  margin-top: 200px;/*sets the margin top to 200px*/
+  margin-bottom: 200px;/*sets the margin bottom to 200px*/
+  padding: 30px 40px;/*sets the padding to 30 px and 40 px */
+  box-sizing: border-box;/* sets the box sizing to border box*/
+  border-radius: 8px;/*sets the border radius to 8px*/
+  text-align: center;/*aligns the text at center */
+  box-shadow: 0 0 20px #000000b3;/* sets the bok shadow to 20px*/
+}
+
+.contact-form h1{ /*for the heading of contact form*/
+  margin-top: 0;/*sets the margin top to 0 px */
+  font-weight: 200;/* sets the font weight to 200*/
+}
+
+.textb{ /*for the textb class*/
+  border: 1px solid gray;/*sets the border color and its size t o1px*/
+  margin: 8px 0px;/* margin is set to 8px and 0px*/
+  padding: 12px 18px;/* sets the padding to 12px and 18px*/
+  border-radius: 8px;/*sets the border radius to 8px */
+}
+
+.textb label { /*for the label inside textb div */
+  display: block; /*sets the display to block*/
+  text-align: left;/*aligns the text in the left */
+  color: #333;/* sets the color */
+  text-transform: uppercase;/*transform the text to uppercase*/
+  font-size: 14px;/* sets the font sizr to 14px*/
+}
+
+.textb input, .textb textarea{ /**/
+  width: 100%;/*sets the width t o100%*/
+  border: none;/*sets the border to none */
+  background: none;/* sets the background to none*/
+  font-size: 18px;/*sets the fontsize to none */
+  margin-top: 6px;/*sets the margin top to 6 px*/
+}
+
+.btn{/*for the button*/
+  display: block;/*sets the display to block */
+  background: #9b59b6;/*sets the background xolor */
+  padding: 14px 0 ;/*sets the padding to 14 and 0px*/
+  color: white;/*sets the color yo white*/
+  text-transform: uppercase;/*transforms the text to uppercase*/
+  cursor: pointer;/*sets the sursor to pointer*/
+  margin-top: 8px;/*sets the yop margin to 8 px*/
+  width: 100%;/*sets the width to 100%*/
+}
+
+
+
+
+.textb{
+  align-items: center;/*aligns the items at center*/
+}
+
+.centerdiv{
+  width: 100%;/* this portion of the css code is the for the footer*/
+  margin: 0 auto;
+  
+}
+
+.centerdiv a {
+  line-height: 60px;/* sets the line height to 60px */
+  background-color: black;/* sets the background color to black */
+  width: 20%;/* sets the width to 20 % */
+  float: left;
+  text-align: center;/*aligns the text to center  */
+  color: #fff;/* sets the color to white */
+}
+
+.centerdiv a i{/* this is for the portion of the code inside centerdiv  */
+  margin: 0;/* sets the margin to 0px*/
+  padding: 0;/* sets the padding to 0 px */
+  text-decoration: none;/*  sets the text decoration to none*/
+}
+
+
+/* ................... Below the media query is for the mobie view ..........................................*/
+@media only screen and (max-width: 360px) and (min-width: 0px) {
+  
+  *{
+    max-width: 360px; /*sets the max-width to 360px*/
+    max-height: 100%; /*sets the max-height to 100%*/
+  }
+  .nav a{
+    width: 25%; /*sets the width to 25%*/
+  }
+
+  .contact-form{
+  width: 85%;  /*sets the width to 85 %*/
+  max-width: 360px; /*sets the max-width */
+  background: #f1f1f1; /*sets the background color*/
+  padding-top: 100px;  /*sets the paddin top*/
+  padding-left: 20px; /*sets the left padding*/
+  margin-left: 30px; /*sets the left margin*/
+  margin-top: 200px; /*sets the top margin*/
+  margin-bottom: 200px; /*sets the bottom margin*/
+  padding: 15px 20px; /*sets the paddin to 15px and 20 px*/
+  box-sizing: border-box; /*creates box with a border*/
+  border-radius: 4px; /*determines the radius of the border*/
+  text-align: center; /*aligns the text to the center*/
+  box-shadow: 0 0 20px #000000b3; /*makes the box shadow of 20px*/
+}
+
+
+  .centerdiv{
+    display: flex; /*sets the display to flex*/
+    flex-wrap: wrap; /*wraps the elements of the flex*/
+    max-width: 360px; /*sets the max width to 360px*/
+    margin: 0 auto; /*sets the margin to auto*/
+  }
+
+  .centerdiv a{
+    width: 15%; /*sets the width to 15%*/
+    padding-left: 2px; /*sets the left padding to 2px*/
+    line-height: 40px; /*sets the line height to 40px*/
+  }
+
+}
+
+/*...........................................media query for tablet.....................................*/
+
+@media only screen and (max-width: 768px) and (min-width: 361px) {
+  
+
+  .nav{
+    max-width: 768px; /*sets the max width to 768px*/
+    
+  }
+
+  .nav a {
+    width: 25%; /*sets the width to 25% */
+    padding: 10px; /*sets the padding to 10px */
+  }
+
+   .contact-form{
+  width: 85%;  /*sets the width to 85%*/
+  max-width: 768px; /*sets the max-width t o768px*/
+  background: #f1f1f1; /*sets the background color*/
+  padding-top: 100px;  /*sets the top padding */
+  padding-left: 20px; /*sets the left padding to 20px*/
+  margin-left: 40px; /*sets the left margin to 40px*/
+  margin-top: 200px; /*sets the top margin to 200px*/
+  margin-bottom: 200px; /*sets the bottom margin to 200px*/
+  padding: 15px 20px;  /*sets the padding to 15 and 20px*/
+  box-sizing: border-box; /**/
+  border-radius: 4px; /*sets the border radius to 4px*/
+  text-align: center;  /*aligns the text to center*/
+  box-shadow: 0 0 20px #000000b3;  /*creates the box shadow of 20px*/
+}
+
+
+  .centerdiv{
+    display: flex; /*sets the display to flex */
+    flex-wrap: wrap; /*wraps the element of the flex */
+    max-width: 768px; /*sets the max-width to 768px*/
+    margin: 0 auto; /*sets the margin to auto */
+  }
+
+   .centerdiv a{
+    width: 20%; /*sets the width 20%*/
+    padding-left: 2px; /*sets the padding left 2px*/
+    line-height: 40px; /*sets the line height 40px*/
+  }
+
+
+}
+
+
+/*...........................media query for desktop....................................*/
+@media only screen and (max-width: 1920px) and (min-width: 1440px){
+
+  *{
+  max-width: 1920px;
+  max-height: 2000px;
+}
+/* below the code deifnes the content of the body */
+body{
+  background-image: url("sea.jpg");/* This sets the background image to the mentioned image */
+  background-size: cover;/* Sets image size to cover  */
+}
+
+.nav{/* this portion is for the navigatiob bar bacground */
+  width: 1920px;/* sets the width to 1920px*/
+  background-color: #00769B; /* sets the background color to a shade of blue */
+  line-height: 50px;/* sets the line height to 50px */
+}
+
+.nav a {
+  width: 10%; /* Sets the width of an element inside nav to 10 % */
+  
+  padding: 10px; /* Keeps the padding 10 px  */
+  line-height: 40px;/* keeps the height of an element ot 40 px */
+  font-size: 35px; /* sets the font size to 35px */
+  text-decoration: none; /* sets the text decoration to none*/
+  
+  
+
+}
+
+
+a:hover{
+  color: #08B9DE;/* sets the color to shade of blue when hovering  */
+  text-decoration: none;/* sets the decoration of the text to none  */
+}
+
+
+.contact-form{
+  width: 85%; /* sets the width of this class to 85 %*/
+  max-width: 600px;/* sets the max width of this class to 600px*/
+  background: #f1f1f1;/*sets the background color */
+  padding-top: 100px; /* sets the yop padding to 100px*/
+  padding-left: 100px;/* sets the padding left to 100px*/
+  margin-left: 500px;/* sets the margin left to 500px*/
+  margin-top: 200px;/*sets the margin top to 200px*/
+  margin-bottom: 200px;/*sets the margin bottom to 200px*/
+  padding: 30px 40px;/*sets the padding to 30 px and 40 px */
+  box-sizing: border-box;/* sets the box sizing to border box*/
+  border-radius: 8px;/*sets the border radius to 8px*/
+  text-align: center;/*aligns the text at center */
+  box-shadow: 0 0 20px #000000b3;/* sets the bok shadow to 20px*/
+}
+
+.contact-form h1{ /*for the heading of contact form*/
+  margin-top: 0;/*sets the margin top to 0 px */
+  font-weight: 200;/* sets the font weight to 200*/
+}
+
+.textb{ /*for the textb class*/
+  border: 1px solid gray;/*sets the border color and its size t o1px*/
+  margin: 8px 0px;/* margin is set to 8px and 0px*/
+  padding: 12px 18px;/* sets the padding to 12px and 18px*/
+  border-radius: 8px;/*sets the border radius to 8px */
+}
+
+.textb label { /*for the label inside textb div */
+  display: block; /*sets the display to block*/
+  text-align: left;/*aligns the text in the left */
+  color: #333;/* sets the color */
+  text-transform: uppercase;/*transform the text to uppercase*/
+  font-size: 14px;/* sets the font sizr to 14px*/
+}
+
+.textb input, .textb textarea{ /**/
+  width: 100%;/*sets the width t o100%*/
+  border: none;/*sets the border to none */
+  background: none;/* sets the background to none*/
+  font-size: 18px;/*sets the fontsize to none */
+  margin-top: 6px;/*sets the margin top to 6 px*/
+}
+
+.btn{/*for the button*/
+  display: block;/*sets the display to block */
+  background: #9b59b6;/*sets the background xolor */
+  padding: 14px 0 ;/*sets the padding to 14 and 0px*/
+  color: white;/*sets the color yo white*/
+  text-transform: uppercase;/*transforms the text to uppercase*/
+  cursor: pointer;/*sets the sursor to pointer*/
+  margin-top: 8px;/*sets the yop margin to 8 px*/
+  width: 100%;/*sets the width to 100%*/
+}
+
+
+
+
+.textb{
+  align-items: center;/*aligns the items at center*/
+}
+
+.centerdiv{
+  width: 100%;/* this portion of the css code is the for the footer*/
+  margin: 0 auto;
+  
+}
+
+.centerdiv a {
+  line-height: 60px;/* sets the line height to 60px */
+  background-color: black;/* sets the background color to black */
+  width: 20%;/* sets the width to 20 % */
+  float: left;
+  text-align: center;/*aligns the text to center  */
+  color: #fff;/* sets the color to white */
+}
+
+.centerdiv a i{/* this is for the portion of the code inside centerdiv  */
+  margin: 0;/* sets the margin to 0px*/
+  padding: 0;/* sets the padding to 0 px */
+  text-decoration: none;/*  sets the text decoration to none*/
+}
+
+}
